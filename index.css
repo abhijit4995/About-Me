@@ -1,0 +1,51 @@
+.about{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.rel{
+    border: 2px solid red;
+    position: relative;
+    height: 400px;
+    width: 550px;
+}
+.first{
+    position: absolute;
+    left: 50px;
+    top: 40px;
+}
+.second{
+    position: absolute;
+    left: 200px;
+    top: 40px;
+}
+.third{
+    position: absolute;
+    left: 330px;
+    top: 40px;
+    text-align: center;
+}
+.four{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    text-align: center;
+}
+.para2{
+    text-align: center;
+}
+.wts{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+.fb{
+    position: fixed;
+    bottom: 80px;
+    right: 5px;
+}
+.ins{
+    position: fixed;
+    bottom: 170px;
+    right: 0px;
+}
