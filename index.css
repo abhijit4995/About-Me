@@ -6,7 +6,7 @@
 .rel{
     border: 2px solid red;
     position: relative;
-    height: 400px;
+    height: 340px;  
     width: 550px;
 }
 .first{
@@ -16,23 +16,25 @@
 }
 .second{
     position: absolute;
-    left: 200px;
+    left: 210px;
     top: 40px;
 }
 .third{
     position: absolute;
-    left: 330px;
+    left: 350px;
     top: 40px;
     text-align: center;
 }
 .four{
     position: absolute;
-    left: 200px;
+    left: 165px;
     top: 200px;
     text-align: center;
 }
 .para2{
-    text-align: center;
+    position: absolute;
+    left: 590px;
+    top: 260px;
 }
 .wts{
     position: fixed;
@@ -41,11 +43,59 @@
 }
 .fb{
     position: fixed;
-    bottom: 80px;
+    bottom: 90px;
     right: 5px;
 }
 .ins{
     position: fixed;
     bottom: 170px;
-    right: 0px;
+    right: -15px;
+}
+.html{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 200px;
+    bottom: 20px;
+    border: 7px solid;
+}
+.css{
+    position: absolute;
+    width: 80px;
+    height: 100px;
+    left: 360px;
+    bottom: 20px;
+    border: 7px solid;
+}
+.js{
+    position: absolute;
+    width: 80px;
+    height: 105px;
+    left: 510px;
+    bottom: 15px;
+    border: 7px solid;
+}
+.php{
+    position: absolute;
+    width: 80x;
+    height: 100px;
+    left: 670px;
+    bottom: 20px;
+    border: 7px solid;
+}
+.py{
+    position: absolute;
+    width: 80x;
+    height: 100px;
+    left: 810px;
+    bottom: 20px;
+    border: 7px solid;
+}
+.java{
+    position: absolute;
+    width: 80x;
+    height: 100px;
+    left: 980px;
+    bottom: 20px;
+    border: 7px solid;
 }
