@@ -19,10 +19,51 @@ body{
     align-items: flex-end;
     height: 500px;
 }
+.text1{
+    background-color: coral;
+    border: 2px solid black;
+    padding: 10px 10px;
+}
+.text2{
+    background-color: coral;
+    border: 2px solid black;
+}
+.text3{
+    background-color: coral;
+    border: 2px solid black;
+
+}
+.text4{
+    background-color: coral;
+    border: 2px solid black;
+}
+.text5{
+    background-color: coral;
+    border: 2px solid black;
+}
+.text6{
+    background-color: coral;
+    border: 2px solid black;
+}
+.text7{
+    background-color: coral;
+    border: 2px solid black;
+
+}
+.text8{
+    background-color: coral;
+    border: 2px solid black;
+}
+.text9{
+    background-color: coral;
+    border: 2px solid black;
+}
+
 .form1{
     border: 2px solid blueviolet;
     background-color: white;
     height: 500px;
+    padding: 20px;
     display: grid;
     /* grid-row-gap: 10px;
     grid-column-gap: 10px; */
@@ -30,9 +71,82 @@ body{
     /* display: inline-grid; */
     /* grid-column-gap: 50px; */
     grid-template-columns: auto auto auto;
-    grid-column-start: 1;
-    grid-column-end: 2;
 }
+.text21{
+    text-align: center;
+    background-color: coral;
+    border: 2px solid black;
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.text22{
+    text-align: center;
+    background-color: coral;
+    border: 2px solid black;
+    padding: 20px;
+}
+.text23{
+    text-align: center;
+    background-color: coral;
+    border: 2px solid black;
+    padding: 20px;
+}
+.text24{
+    text-align: center;
+    background-color: coral;
+    border: 2px solid black;
+    padding: 20px;
+}
+.text25{
+    text-align: center;
+    background-color: coral;
+    border: 2px solid black;
+    padding: 20px;
+}
+.text26{
+    text-align: center;
+    background-color: coral;
+    border: 2px solid black;
+    padding: 20px;
+}
+.text27{
+    text-align: center;
+    background-color: coral;
+    border: 2px solid black;
+    padding: 20px;
+}
+.text28{
+    text-align: center;
+    background-color: coral;
+    border: 2px solid black;
+    padding: 20px;
+}
+.text29{
+    text-align: center;
+    background-color: coral;
+    border: 2px solid black;
+    padding: 20px;
+}
+
 .Main{
     /* margin: 150px 220px 40px 220px; */
 }
+@media only screen and(max-width: 600px)
+{ font-size: 50px;
+}
+    .text21::first-letter
+    {
+    color: blue;
+    font-size: 50px;
+}
+@media only screen and(min-width: 600px)
+{
+    font-size: 40px;
+}
+ .text22::first-letter
+ {
+    color: aquamarine;
+    font-size: 100px;
+ }
+
